@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SharedPreferencesDemo</string>
+    <string name="hello_world">Shared Preferences</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="ClassList">
+        <item >SY-CE-I</item>
+        <item >SY-CE-II</item>
+        <item >LY-CE-I</item>
+        <item >LY-CE-II</item>
+        <item >TY_CE-I</item>
+        <item >TY-CE-II</item>
+    </string-array>
+        <string name="btnGetLabel">getValues</string>
+        <string-array name="ColorList">
+            <item >#00FF00</item>
+            <item >#FF0000</item>
+            <item >#0000FF</item>
+        </string-array>
+
+</resources>

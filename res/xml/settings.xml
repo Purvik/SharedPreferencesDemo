@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="Personal Info">
+        <EditTextPreference 
+            android:key="namePreference" 
+            android:title="Name" 
+            android:summary="Enter Your Name" 
+            android:defaultValue="[Enter your Name here]"/>
+        
+        <ListPreference 
+            android:entries="@array/ClassList" 
+            android:title="Class" 
+            android:entryValues="@array/ClassList" 
+            android:key="prefClass" 
+            android:dialogTitle="Select Your Class"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="System Info">
+        <RingtonePreference 
+            android:summary="Select a RingTone" 
+            android:title="RingTone" 
+            android:key="prefRingTone"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="BackGround Color">
+        <ListPreference 
+            android:entries="@array/ColorList" 
+            android:entryValues="@array/ColorList" 
+            android:title="Select BackGround Color" 
+            android:key="prefBgColor"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
